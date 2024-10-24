@@ -1,9 +1,4 @@
 function checkNumber(num) {
-    // if (num <= 1) {
-    //     return num === 0 ? "Neither Even, Odd nor Prime" : "Odd";
-    // }
-    
-    // Check if the number is even
     if (num % 2 === 0) {
         return "Even";
     }
